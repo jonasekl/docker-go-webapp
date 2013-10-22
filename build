@@ -1,0 +1,3 @@
+export GOPATH=/opt/rest1
+go build rest1.go types.go
+
