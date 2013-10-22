@@ -1,12 +1,18 @@
 
-_getting the go dependencies_
+# getting the go dependencies
+```
 export GOPATH=$(pwd)
 go get github.com/ungerik/go-rest
+```
 
-_building the docker image_
+# building the docker image
+```
 sudo docker build -t "jonasekl/rest1" .
+```
 
-_running the docker image_
+# running the docker image
+```
 sudo docker run -d 429667fa1616 
+```
 
 
